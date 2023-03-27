@@ -151,7 +151,6 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     gap: 14px;
     padding: 0;
@@ -654,6 +653,9 @@
   }
 
   .burger-menu-button {
+    display: none;
+  }
+  .mobile-menu {
     display: none;
   }
 }
